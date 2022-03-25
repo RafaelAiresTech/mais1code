@@ -1,13 +1,15 @@
 #include <stdio.h>
- 
-int main() {
 
-    int A, B, X;
+int main () {
+    
+    double raio, area, pi=3.14159;
 
-    scanf("%d %d",&A, &B);
-    X = A + B;
-    printf("SOMA = %d\n", X);
- 
+    scanf ("%lf", &raio);
+
+    area = pi * (raio * raio);
+
+    printf ("A=%.4lf\n",area);
+
     return 0;
     
 }
